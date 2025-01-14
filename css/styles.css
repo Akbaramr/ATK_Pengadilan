@@ -11198,6 +11198,23 @@ body {
   color: #fff;
 }
 
-.footer {
-  padding: 5rem 0;
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  color: #fff;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1.5rem;
+}
+
+.social-links a:hover {
+  background-color: #ff6f61; /* Ubah warna pada hover */
+  transform: scale(1.2); /* Efek membesar */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan */
 }
